@@ -1,6 +1,9 @@
-#include <iostream>
+#include <stdlib.h>
+#include "find_the_difference/solution.cpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    system("Color"); // Need to run this command to enable colors in Windows
+    findDiff::Solution::runTests();
+
     return 0;
 }
