@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AssignmentToForLoopParameter" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_checkForeachParameters" value="true" />
+    </inspection_tool>
+    <inspection_tool class="AssignmentToLambdaParameter" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="AssignmentToMethodParameter" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreTransformationOfOriginalParameter" value="false" />
+    </inspection_tool>
+    <inspection_tool class="ClassWithOnlyPrivateConstructors" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    <inspection_tool class="FieldMayBeFinal" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    <inspection_tool class="InstanceofChain" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreInstanceofOnLibraryClasses" value="false" />
+    </inspection_tool>
+    <inspection_tool class="LocalCanBeFinal" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+      <option name="REPORT_VARIABLES" value="true" />
+      <option name="REPORT_PARAMETERS" value="true" />
+    </inspection_tool>
+    <inspection_tool class="MissingJavadoc" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES">
+      <option name="METHOD_SETTINGS">
+        <Options>
+          <option name="REQUIRED_TAGS" value="@return@param@throws or @exception" />
+          <option name="ENABLED" value="false" />
+        </Options>
+      </option>
+      <option name="FIELD_SETTINGS">
+        <Options>
+          <option name="ENABLED" value="false" />
+        </Options>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="NonFinalUtilityClass" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UNUSED_IMPORT" enabled="true" level="ERROR" enabled_by_default="true" editorAttributes="ERRORS_ATTRIBUTES" />
+    <inspection_tool class="UtilityClassWithPublicConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
